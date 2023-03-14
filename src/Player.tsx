@@ -13,7 +13,7 @@ import {
 import { GrPlayFill, GrPauseFill } from "react-icons/gr";
 import { BiSkipNext, BiSkipPrevious, BiShuffle } from "react-icons/bi";
 import { RiRepeat2Fill, RiRepeatOneFill } from "react-icons/ri";
-import { RepeatMode, TrackObject } from "./symlinkPlayer/dist";
+import { RepeatMode, TrackObject } from "react-toque-player-hlstream";
 
 type PlayerProps = {
 	statePlaying: boolean

@@ -4,7 +4,7 @@ import {
 	theme,
 } from "@chakra-ui/react"
 import Player from "./Player";
-import ToquePlayer, { EventPlayerEnum, RepeatMode, TrackObject } from "./symlinkPlayer/dist"
+import ToquePlayer, { EventPlayerEnum, RepeatMode, TrackObject } from "react-toque-player-hlstream"
 import { playlist } from "./playlist";
 import { useEffect, useState } from "react";
 
